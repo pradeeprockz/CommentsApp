@@ -1,0 +1,43 @@
+  .comments-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8fafc;
+    border-radius: 10px;
+  }
+
+.heading {
+  text-align: center;
+  color: #1e293b;
+  margin-bottom: 20px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.input,
+.textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #cbd2d9;
+  border-radius: 5px;
+  font-family: Roboto;
+}
+
+.btnComment {
+  padding: 10px;
+  background-color: #0284c7;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: Roboto;
+}
+
+.comments-list {
+  list-style-type: none;
+  padding: 0;
+}
